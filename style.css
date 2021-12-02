@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    
+
 }
 
 ul {
@@ -52,6 +52,12 @@ h2 {
     
 }
 
+.card{
+    max-width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
 .quote{
     display: flex;
     flex-direction: column;
@@ -75,7 +81,8 @@ h2 {
    
 }
 
-footer {
-    
+.footer {
+    justify-content: center;
+    align-items: center;
 }
 
