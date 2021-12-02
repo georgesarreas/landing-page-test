@@ -1,14 +1,16 @@
 body {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
+
 
 .nav {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
-    
     align-items: center;
     
 }
@@ -26,3 +28,54 @@ li {
     text-decoration: none;
     padding: 10px;
 }
+
+.main1{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+button {
+    background-color:#3882F6 ;
+}
+
+h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin:0px;
+    align-items: center;
+    
+    
+}
+
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+   
+}
+
+footer {
+    
+}
+
