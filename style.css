@@ -1,1 +1,28 @@
-<
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    
+    align-items: center;
+    
+}
+
+.header {
+    
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    padding: 10px;
+}
