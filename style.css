@@ -78,11 +78,17 @@ h2 {
 .call {
     display: flex;
     background-color: #3882F6;
-   
-}
+    
 
 .footer {
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    position:absolute;
+   bottom:0;
+   
+   
 }
+
+
 
